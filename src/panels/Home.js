@@ -26,7 +26,8 @@ const Home = ({ id, go, fetchedUser }) => (
 				<Button size="xl" level="2" onClick={go} data-to="persik">
 					это персик
 				</Button>
-
+			</Div>
+			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="non-persik">
 					а это не персик
 				</Button>
